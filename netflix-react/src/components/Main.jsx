@@ -1,7 +1,9 @@
 import React from "react";
 import Container from "react-bootstrap/esm/Container";
 import Dropdown from "react-bootstrap/Dropdown";
-import Gallery from "./Gallery";
+import Gallery1 from "./Gallery1";
+import Gallery2 from "./Gallery2";
+import Gallery3 from "./Gallery3";
 
 export default function Main() {
   return (
@@ -30,7 +32,9 @@ export default function Main() {
           <i class="fa fa-th icons"></i>
         </div>
       </div>
-      <Gallery />
+      <Gallery1/>
+      <Gallery2 />
+      <Gallery3 />
     </Container>
   );
 }
