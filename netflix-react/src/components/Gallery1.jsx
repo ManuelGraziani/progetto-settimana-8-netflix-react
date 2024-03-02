@@ -8,7 +8,7 @@ export default class Gallery1 extends Component {
     error: null,
   };
   componentDidMount() {
-    const api = "http://www.omdbapi.com/?apikey=d18e5237&s=saw";
+    const api = "https://www.omdbapi.com/?apikey=d18e5237&s=saw";
 
     fetch(api)
       .then((response) => response.json())
